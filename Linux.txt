@@ -90,7 +90,7 @@ tar -xf files.tar                    => Extract archive file 'files.tar'
 Search
 grep -rnw dir -e 'pattern'                       => Search recursivaly for a regex pattern in dir
 find dir -name "file_name"                       => Find all files/directories named file_name inside dir
-find . -regextype egrep -regex '.*[0-9].*.jpg$'  => Find using egrep regex
+find . -regextype egrep -regex '.*[0-9].*.jpg'  => Find using egrep regex
 find dir -empty -type d                          => Fild all empty directories. Add -delete to delete them.
 find dir -name 'file_name' -exec command '{}' \; => This is search and execute.  The '{}' is replace with the results of the search.
 
